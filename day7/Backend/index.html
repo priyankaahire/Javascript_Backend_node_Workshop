@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ajax</title>
+        <script>
+            function makeCall() {
+                //* Ajax object (part of the browser WebApi)
+                const xhr = new XMLHttpRequest();
+                //xhr.open("GET", "http://reqres.in/api/users/1");
+                xhr.open("GET", "http://localhost:10000")
+
+                xhr.onreadystatechange = function(event) {
+                    console.log(xhr.response)
+                }
+                //* Actually make the call
+                xhr.send()
+            }
+        </script>
+    </head>
+    <body>
+     <button onClick="makeCall()">Fetch Date</button>
+    </body>
+</html>

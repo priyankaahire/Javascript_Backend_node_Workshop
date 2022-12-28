@@ -1,0 +1,10 @@
+
+# comiled output
+/dist
+/tmp
+
+# dependencies
+day6/FrontEnd/node_modules
+day4/FrontEnd/node_modules
+day7/BackEnd/node_modules
+/.png
