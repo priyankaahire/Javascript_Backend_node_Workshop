@@ -46,7 +46,7 @@
 ## BackEnd
 
     ### Required pacakges for Backend
-      - **Javascript Express** - `npm install express`
+      -**Javascript Express**- `npm install express`
       - **TypeScript express** - `npm install @types/express`
       - **ts-node**- `npm install -g ts-node`
       - **mysql2**- `npm install mysql2`
