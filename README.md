@@ -85,11 +85,11 @@
 
     Run ts-node index.ts
 ### Help
-    **Note:** 
-       - If you want to see the ts to js conversion first open a 2command prompt not a Powesheel In first Run the "tsc -watch" and in 2nd 
+    -**Note:**
+       1. If you want to see the ts to js conversion first open a 2command prompt not a Powesheel In first Run the "tsc -watch" and in 2nd 
          run the "npx webpack-dev-server --mode=development"
 
-       - if user want to Cretae js file in "src" folder and "Ts" file in typescript folder so modification in "tsconfig.json"
+       2. if user want to Cretae js file in "src" folder and "Ts" file in typescript folder so modification in "tsconfig.json"
         {
             "module": "commonjs",                                
             "rootDir": "./typescript",  
