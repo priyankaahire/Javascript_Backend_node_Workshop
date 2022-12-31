@@ -21,7 +21,7 @@
             <script src="main.js"></script>
             
     * 8. npx webpack-dev-server --mode=development
-# Run npx webpack-dev-server 
+## Run npx webpack-dev-server 
     1. npm install -D webpack webpack-cli webpack-dev-server
     1. create typescript folder, move all files from src
     2. rename .js files to .ts
@@ -33,9 +33,9 @@
     6. npx webpack-dev-server --mode=development
 
 
-## Note: If you want to see the ts to js conversion first open a 2 commond promt not a Powesheel first Run the "tsc -watch" and in 2nd terminal run the "npx webpack-dev-server --mode=development"
+## Note: If you want to see the ts to js conversion first open a 2command prompt not a Powesheel In first Run the "tsc -watch" and in 2nd run the "npx webpack-dev-server --mode=development"
 
-## if user want to Cretae js file in "src" folder and "Ts" file in typescript folder then need to be chnage the "tsconfig.json"
+## if user want to Cretae js file in "src" folder and "Ts" file in typescript folder so modification in "tsconfig.json"
     {
         "module": "commonjs",                                
         "rootDir": "./typescript",  
@@ -51,14 +51,14 @@
     nodemon --exec ts-node TodoRouterHandler.ts
     
 
-# BackEnd
+## BackEnd
 1. Run nodemon --exec ts-node TodoRouterHandler.ts
 
 # FrontEnd
 1. Run tsc --watch
 2. npx webpack-dev-server --mode=development
   
-# MySql
+## MySql
     npm init -y
     npm install sync-mysql
     node mysqlcall.js
@@ -70,7 +70,7 @@
     Ans:ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
 
 
-# MySQLCallback
+## MySQLCallback
     1. Required mysql2
         npm init -y
         npm i @types/mysql
