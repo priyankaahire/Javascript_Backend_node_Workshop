@@ -4,7 +4,10 @@
 /tmp
 
 # dependencies
-day6/FrontEnd/node_modules
-day4/FrontEnd/node_modules
-day7/Backend/node_modules
+FrontEnd/node_modules
+FrontEnd/node_modules
+Backend/node_modules
+node_modules
 /.png
+
+git rm -r --cached node_modules

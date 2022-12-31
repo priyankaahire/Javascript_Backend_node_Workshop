@@ -33,27 +33,23 @@
     6. npx webpack-dev-server --mode=development
 
 
-**Note: If you want to see the ts to js conversion first open a 2 commond promt not a Powesheel first Run the "tsc -watch" and in 2nd terminal run the "npx webpack-dev-server --mode=development"
+## Note: If you want to see the ts to js conversion first open a 2 commond promt not a Powesheel first Run the "tsc -watch" and in 2nd terminal run the "npx webpack-dev-server --mode=development"
 
-** if user want to Cretae js file in "src" folder and "Ts" file in typescript folder then need to be chnage the "tsconfig.json"
+## if user want to Cretae js file in "src" folder and "Ts" file in typescript folder then need to be chnage the "tsconfig.json"
+    {
+        "module": "commonjs",                                
+        "rootDir": "./typescript",  
+        "target": "es6", 
+        "outDir": "./src", 
+    }
 
- {
-    "module": "commonjs",                                
-    "rootDir": "./typescript",  
-    "target": "es6", 
-    "outDir": "./src", 
- }
-
-
-
-Run the node project by installing below
+## Required Installation
     npm install -g typescript
     npm install @types/express
     npm install -g ts-node
     nodemon index.js //? using this no need to run the app every time
     nodemon --exec ts-node TodoRouterHandler.ts
-
-Then run postman all API
+    
 
 # BackEnd
 1. Run nodemon --exec ts-node TodoRouterHandler.ts
