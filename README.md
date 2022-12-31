@@ -1,6 +1,6 @@
 # Javascript_Backend_node_Workshop
 
-## Bundle all files for webpack
+# Bundle all files for webpack
 
     * 1. Install Webpack
         npm install -d webpack webpack-cli webpack-dev-ServiceWorkerRegistration
@@ -21,42 +21,28 @@
             <script src="main.js"></script>
             
     * 8. npx webpack-dev-server --mode=development
-## Run npx webpack-dev-server 
-    1. npm install -D webpack webpack-cli webpack-dev-server
-    1. create typescript folder, move all files from src
-    2. rename .js files to .ts
-    2. npm install typescript ts-node
-    2. npm i -g typescript
-    3. tsc --init in root folder (Create the tsconfig.json file) Even always in cmd
-    4. refactor TodoComponent from js to ts
-    5. tsc --watch
-    6. npx webpack-dev-server --mode=development
+   
+# FrontEnd
+   ### Required pacakges for Frontend
+      -**Webpack**    - `npm install webpack webpack-cli webpack-dev-server`
+      -**TypeScript** - `npm install -g typescript`
+      -**nodemon**    - `npm install -g nodemon`
+   ### How to Run Frontend
+       1. `tsc --watch`
+       2. `npx webpack-dev-server --mode=development`
 
-
-## Note: If you want to see the ts to js conversion first open a 2command prompt not a Powesheel In first Run the "tsc -watch" and in 2nd run the "npx webpack-dev-server --mode=development"
-
-## if user want to Cretae js file in "src" folder and "Ts" file in typescript folder so modification in "tsconfig.json"
-    {
-        "module": "commonjs",                                
-        "rootDir": "./typescript",  
-        "target": "es6", 
-        "outDir": "./src", 
-    }
-
-## Required Installation
-    npm install -g typescript
+# Required Installation
+   
     npm install @types/express
     npm install -g ts-node
     nodemon index.js //? using this no need to run the app every time
     nodemon --exec ts-node TodoRouterHandler.ts
     
 
-## BackEnd
-1. Run nodemon --exec ts-node TodoRouterHandler.ts
+# BackEnd
+   1. Run nodemon --exec ts-node TodoRouterHandler.ts
 
-# FrontEnd
-1. Run tsc --watch
-2. npx webpack-dev-server --mode=development
+
   
 ## MySql
     npm init -y
