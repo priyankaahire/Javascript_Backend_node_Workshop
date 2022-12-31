@@ -84,8 +84,16 @@
         npm i types/mysql2
 
     Run ts-node index.ts
-### Help
-    -**Note:**
+    
+## Documentation files:
+
+TypeScript: [TypeScript Docs][ts]
+Express : [Express Docs][express]
+
+[ts]: https://www.typescriptlang.org/docs/
+[express]: https://expressjs.com/en/starter/installing.html
+## Help
+    ### Note:
        1. If you want to see the ts to js conversion first open a 2command prompt not a Powesheel In first Run the "tsc -watch" and in 2nd 
          run the "npx webpack-dev-server --mode=development"
 
@@ -96,12 +104,6 @@
             "target": "es6", 
             "outDir": "./src", 
         }
-## Documentation files:
 
-TypeScript: [TypeScript Docs][ts]
-Express : [Express Docs][express]
-
-[ts]: https://www.typescriptlang.org/docs/
-[express]: https://expressjs.com/en/starter/installing.html
 
 
